@@ -1,5 +1,7 @@
 My Conky setup. It's running on Ubuntu 18.04 lTS (Bionic Beaver) (`cat /etc/*-release`). 
 
+![](https://github.com/joshschmelzle/.conkyrc/blob/master/screenshot.png)
+
 ## file setup
 
 Your main configuration file will be in your home directory (`~/`) while supporting config files will be in `~/.conky/`. Scripts need to be executable with `chmod +x script.sh`. 
