@@ -1,6 +1,4 @@
-# conky
-
-My Conky setup. 
+My Conky setup. It's running on Ubuntu 18.04 lTS (Bionic Beaver) (`cat /etc/*-release`). 
 
 ## setup
 
