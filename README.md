@@ -10,7 +10,7 @@ Your main configuration file will be in your home directory (`~/`) while support
 
 ## tips
 
-Conky can use external scripts or commands like so `${exec ~/.conky/script.sh}` or `${exec uname -r}. 
+Conky can use external scripts or commands like so `${exec ~/.conky/script.sh}` or `${exec uname -r}`. 
 Use tools like `grep`, `cut`, and `tr` to modify output as needed. 
 
 ## example 
