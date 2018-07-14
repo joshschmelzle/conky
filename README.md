@@ -10,4 +10,4 @@ My Conky setup.
 
 ## files
 
-Main conky configuration file is `~/.conkyrc`. Supporting files and scripts are in `~/.conky`.
+Main conky configuration file is `~/.conkyrc`. Supporting files and scripts are in `~/.conky`. Scripts need to be executable with `chmod +x script.sh`. 
