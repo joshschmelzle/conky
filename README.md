@@ -17,4 +17,4 @@ Use tools like `grep`, `cut`, and `tr` to modify output as needed.
 
 ## example 
 
-Like `nmcli -f in-use,ssid dev wifi | grep '*' | tr -d ' ' | tr -d '*'` will find the current Wi-Fi network from [`nmcli`](https://developer.gnome.org/NetworkManager/stable/nmcli.html) (command-line tool for controlling NetworkManager) you're connected to from the list of nearby Wi-Fi networks. `grep '*'` finds the in-use network, `tr -d ' '` removes white spaces from the output, and `tr -d '*'` removes the asterisk from the outpt.
+Like `nmcli -f in-use,ssid dev wifi | grep '*' | tr -d ' ' | tr -d '*'` will find the current Wi-Fi network from [`nmcli`](https://developer.gnome.org/NetworkManager/stable/nmcli.html) (command-line tool for controlling NetworkManager). `grep '*'` finds the in-use network, `tr -d ' '` removes white spaces from the output, and `tr -d '*'` removes the asterisk from the outpt.
