@@ -38,7 +38,7 @@ conky.config = {
 }
 
 conky.text = [[
-${exec whoami}@$nodename - $sysname $kernel on $machine
+${color red}${exec whoami}$color@${color pink}$nodename $color- $sysname $kernel on $machine
 $hr
 ${color grey}Uptime:$color $uptime
 ${color grey}Battery:$color ${battery BAT1} 
