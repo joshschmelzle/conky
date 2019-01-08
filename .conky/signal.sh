@@ -1,1 +1,1 @@
-nmcli -f in-use,signal dev wifi | grep '*' | tr -d ' ' | tr -d '*'
+iwconfig wlan0 | grep "Signal level" | tr -d " " | rev | cut -d"=" -f1 | rev
